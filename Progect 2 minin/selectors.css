@@ -47,6 +47,7 @@ body {
 .container{
    max-width: 1920px;
    margin: 0 auto;
+   padding-bottom: 15px;
 }
 
 .header {
@@ -58,19 +59,21 @@ body {
 }
 
 .header-container{
-   padding-bottom: 14px;
+   display: flex;
+   width: 1110px;
+   justify-content: space-between;
+   align-items: center;
 }
 
 .information{ 
    display: inline-flex;
-padding-left:  406px;
-padding-right: 594px;
 font-family: 'PT Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
 line-height: 16px;
 color: #969696;
+
 }
 
 .information svg {
@@ -124,16 +127,22 @@ color: #969696;
 }
 
 .logo-span{
+   display: flex;
    background-color: #0F0F0F;
    height: 80px;
-   
+   justify-content: center;
+}
+
+.logo-span ul{
+   display: flex;
+}
+
+.logo-span li{
+   display: flex;
 }
 
 
 .logo{
-   height: 100%;
-   padding-top: 15px;
-   margin: 0 469px 0 405px ;
 font-family: 'Post-No-Bills-Jaffna', sans-serif;
 font-style: normal;
 font-weight: 700;
@@ -145,7 +154,44 @@ color: #fff;
 }
 
 .buttoms{
-   display: inline-flex;
+   display: inline-block;
+   padding: 31px 20px;
+   text-decoration: none;
+   transition: all 0.2s;
+   font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+text-transform: uppercase;
+   color: #fff; 
+}
+
+.buttoms:hover {
+ background: #969696;
+ opacity: 0.8;
+}
+
+.like{
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.shop{
+   display: inline-block;
+   background-color: #0F0F0F;
+   border: none;
+   
+}
+
+
+.shop:hover{
+   cursor: pointer;
 }
 
 .brend-img{
